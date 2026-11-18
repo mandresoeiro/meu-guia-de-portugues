@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Guia pessoal de consulta ao português brasileiro. Encontre regras e exemplos sobre ortografia, gramática e escrita.">
+  <title>Meu Guia de Português</title>
+  <link rel="stylesheet" href="./estilo.css">
+  <script src="./conteudo.js" defer></script>
+  <script src="./guia.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#principal">Ir para o conteúdo</a>
+  <header class="topo">
+    <div class="wrap topo-corpo">
+      <a class="marca" href="#" aria-label="Meu Guia de Português, início">
+        <span class="monograma" aria-hidden="true">Aa</span><span>Meu Guia <em>de Português</em></span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#" id="inicio-link">Início</a>
+        <a href="#favoritas" id="favoritas-link"><span aria-hidden="true">☆</span> Favoritas</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="principal" class="wrap">
+    <section class="hero" id="apresentacao">
+      <div class="hero-texto">
+        <p class="sobretitulo">Português brasileiro</p>
+        <h1>Meu Guia<br>de Português</h1>
+        <p>Encontre a regra, compare exemplos e volte ao seu texto com a dúvida resolvida.</p>
+      </div>
+      <div class="hero-gravura" aria-hidden="true"></div>
+    </section>
+
+    <section class="consulta" aria-label="Busca e temas">
+      <form id="busca-form" role="search">
+        <label for="busca">O que você quer consultar?</label>
+        <div class="busca-controles">
+          <input type="search" id="busca" placeholder="Ex.: mau ou mal, crase, vírgula" autocomplete="off">
+          <button type="button" id="limpar" hidden>Limpar</button>
+        </div>
+      </form>
+      <div class="atalhos" id="atalhos" aria-label="Consultas frequentes"></div>
+    </section>
+    <div id="painel"></div>
+  </main>
+
+  <footer class="wrap rodape">
+    <span>Meu Guia de Português</span>
+    <div>
+      <a href="https://www2.academia.org.br/nossa-lingua/vocabulario-ortografico" target="_blank" rel="noopener noreferrer">VOLP</a>
+      <a href="https://www2.camara.leg.br/legin/fed/decret/2008/decreto-6583-29-setembro-2008-581372-normaatualizada-pe.html" target="_blank" rel="noopener noreferrer">Acordo Ortográfico</a>
+      <a href="https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica" target="_blank" rel="noopener noreferrer">Manual de Redação</a>
+    </div>
+  </footer>
+  <noscript>Ative o JavaScript para pesquisar regras e salvar favoritas.</noscript>
+</body>
+</html>
